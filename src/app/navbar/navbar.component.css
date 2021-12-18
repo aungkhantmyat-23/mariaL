@@ -1,0 +1,85 @@
+nav{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: space-between;
+   padding-top:10px ;
+   background-color: white;
+}
+
+img{
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+button{
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    border: 0;
+    background-color: transparent;
+    font-size: 30px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+button:hover{
+    border:1px solid rgb(243, 56, 56);
+    background-color:rgb(243, 56, 56) ;
+    color:white;
+    border-radius:10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: black;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-bottom:20px;
+  }
+  
+  .sidenav a:hover {
+    color:#911e2c ;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .circle-container{
+      height: 250px;
+      width: 250px;
+      background-position: center;
+      background-size: cover;
+      margin-left: 50%;
+      transform: translate(-50%,-50%);
+      margin-top: 50%;
+      background-image: url("../../../src/assets/images/photo_2021-12-18_19-51-28.jpg");
+  }
+  h2{
+      color: white;
+      font-size: 40px;
+      text-align: center
+      ;
+  }
